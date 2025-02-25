@@ -1,0 +1,127 @@
+{
+    "styles": {
+        "h1": {
+            "font_name": "Arial",
+            "font_size": 20,
+            "bold": true,
+            "color": {"r": 36, "g": 29, "b": 29},
+            "space_before": 24,
+            "space_after": 12,
+            "keep_with_next": true
+        },
+        "h2": {
+            "font_name": "Arial",
+            "font_size": 16,
+            "bold": true,
+            "color": {"r": 91, "g": 33, "b": 37},
+            "space_before": 18,
+            "space_after": 10,
+            "keep_with_next": true
+        },
+        "h3": {
+            "font_name": "Arial",
+            "font_size": 14,
+            "bold": true,
+            "color": {"r": 141, "g": 52, "b": 49},
+            "space_before": 14,
+            "space_after": 8,
+            "keep_with_next": true
+        },
+        "h4": {
+            "font_name": "Arial",
+            "font_size": 12,
+            "bold": true,
+            "color": {"r": 191, "g": 84, "b": 46},
+            "space_before": 12,
+            "space_after": 6,
+            "keep_with_next": true
+        },
+        "normal": {
+            "font_name": "Times New Roman",
+            "font_size": 11,
+            "color": {"r": 36, "g": 29, "b": 29},
+            "space_after": 8,
+            "line_spacing": 1.15
+        },
+        "code": {
+            "font_name": "Consolas",
+            "font_size": 10,
+            "color": {"r": 141, "g": 52, "b": 49},
+            "space_after": 8
+        },
+        "code_block": {
+            "font_name": "Consolas",
+            "font_size": 10,
+            "color": {"r": 36, "g": 29, "b": 29},
+            "background": {"r": 245, "g": 245, "b": 245},
+            "space_before": 8,
+            "space_after": 8
+        },
+        "list_item": {
+            "font_name": "Times New Roman",
+            "font_size": 11,
+            "color": {"r": 36, "g": 29, "b": 29},
+            "space_after": 0,
+            "left_indent": 0.5
+        },
+        "table": {
+            "font_name": "Times New Roman",
+            "font_size": 10,
+            "header_bg_color": {"r": 91, "g": 33, "b": 37},
+            "border_color": {"r": 36, "g": 29, "b": 29},
+            "space_before": 12,
+            "space_after": 12
+        },
+        "caption": {
+            "font_name": "Times New Roman",
+            "font_size": 10,
+            "italic": true,
+            "color": {"r": 141, "g": 52, "b": 49},
+            "space_before": 6,
+            "space_after": 12,
+            "alignment": "center"
+        },
+        "toc_heading": {
+            "font_name": "Arial",
+            "font_size": 16,
+            "bold": true,
+            "color": {"r": 36, "g": 29, "b": 29},
+            "space_before": 24,
+            "space_after": 12
+        },
+        "toc_item": {
+            "font_name": "Times New Roman",
+            "font_size": 11,
+            "color": {"r": 36, "g": 29, "b": 29},
+            "space_after": 3
+        }
+    },
+    "document": {
+        "add_file_headers": true,
+        "page_break_between_files": true,
+        "margins": {
+            "top": 2.5,
+            "bottom": 2.5,
+            "left": 2.5,
+            "right": 2.5
+        },
+        "page_size": {
+            "width": 21.0,
+            "height": 29.7
+        },
+        "orientation": "portrait",
+        "generate_toc": true,
+        "toc_title": "Table des matières",
+        "header": {
+            "enabled": true,
+            "content": "{chapter}",
+            "first_page_different": true
+        },
+        "footer": {
+            "enabled": true,
+            "content": "Page {page}",
+            "first_page_different": true
+        },
+        "image_max_width": 15
+    }
+}
